@@ -58,7 +58,6 @@ public class MethodTest {
             staticMethod.setAccessible(true);
             staticMethod.invoke(null,"hello reflection");
 
-
         } catch (Exception e) {
             e.printStackTrace();
         }
